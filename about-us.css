@@ -1,0 +1,37 @@
+*{
+	font-family: monserrat;
+}
+
+body{
+	background: f1fbff;
+	
+}
+
+.section-padding {
+	padding: 0px 0;
+}
+
+.about-img img{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+	}
+
+	.section-header h2{
+		margin-top: 30px;
+	}
+
+	.section-header p{
+		text-align: left;
+		font-size: 18px;
+	}
+
+	.section-header ul li{
+		text-align: left;
+		font-size: 18px;
+	}
+
+	footer{
+		margin-top: 50px;
+	}

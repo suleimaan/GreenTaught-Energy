@@ -4,7 +4,7 @@
 
 body{
 	background: f1fbff;
-	/*7:40*/
+	
 }
 
 .section-padding {
@@ -113,12 +113,12 @@ letter-spacing:2px;
 			text-align: center;
 		}
 		.carousel-caption{
-			bottom: 170px;
+			bottom: 120px;
 		}
 		.carousel-caption h5{
-			font-size: 37px;
+			font-size: 27px;
 			margin-top: 50px;
-			color: black;
+			
 			
 		}
 
@@ -129,9 +129,9 @@ letter-spacing:2px;
 		.carousel-caption p{
 			width: 100%;
 			line-height: 1.6;
-			font-size: 32px;
+			font-size: 18px;
 			margin-top: 50px;
-			color: black;
+			
 		}
 
 		.card{

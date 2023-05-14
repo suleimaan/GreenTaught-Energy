@@ -118,9 +118,7 @@ letter-spacing:2px;
 		.carousel-caption h5{
 			font-size: 27px;
 			margin-top: 50px;
-			
-			
-		}
+				}
 
 		.carousel-caption a{
 			padding:10px 15px;
@@ -131,8 +129,7 @@ letter-spacing:2px;
 			line-height: 1.6;
 			font-size: 18px;
 			margin-top: 50px;
-			
-		}
+	}
 
 		.card{
 			margin-bottom: 30px;
@@ -140,6 +137,9 @@ letter-spacing:2px;
 
 		.img-area img{
 			width: 100%;
+		}
+		.mt-3{
+		width:50%;
 		}
 	}
 

@@ -1,0 +1,77 @@
+*{
+	font-family: monserrat;
+}
+
+body{
+	background: f1fbff;
+	
+}
+
+.section-header{
+	margin-top: 100px;
+}
+
+.section-header p{
+	font-size: 20px;
+}
+
+footer{
+	margin-top: 180px;
+}
+
+ p{
+	font-size:15px;
+	letter-spacing: 2px;
+	margin-top: 0;
+	bottom: 70px;
+}
+ h2{
+	font-size:45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 0;
+	bottom: 70px;
+}
+
+.level{
+ background-color: #ddd;
+ color: black;
+ width:53.5vh;
+ padding:17px 0;
+ font-weight:700;
+ font-weight: bold;
+ margin: -1.4px auto;
+}
+
+
+	/*==responsive css ==*/
+
+	@media screen and (min-width: 768px) and (max-width: 991px){
+		
+
+		.card{
+			margin-bottom: 30px;
+		}
+
+		
+
+		.level{
+			width: 60vh;
+		}
+	}
+
+	@media only screen and (max-width:767px){
+				
+
+		.card{
+			margin-bottom: 30px;
+		}
+
+		
+
+		.level{
+			width: 89vh;
+		}
+	}
+
+	/*= End-of-Responsiveness =*/

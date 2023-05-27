@@ -1,0 +1,144 @@
+/*BismiLllah Wa Haola Wala Quwwata Illa BiLlaah, the start of Greentaught LearnPage-CSS adopted from swiftdemy learnpage Friday 23-5-2023*/
+
+*{
+  font-family: monserrat;
+}
+
+
+body {
+background: f1fbff;
+width: 100%;
+height: 100vh;
+font-family: Tahoma;
+font-size: 16px;
+}
+
+/* navbar styling */
+
+
+a.navbar-brand {
+  width:72px;
+  height: 57px;
+  font-size: 57px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 350px;
+    margin-bottom: 300px;
+    margin-top: 150px;
+  }
+
+.header{
+  margin: 10px 250px 100px;  
+}
+
+.header p {
+  margin-bottom: -30px;
+}
+
+ button {
+  width: 50%;
+  margin: 0px 250px;
+   }  
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: black;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-left: 300px;
+  margin-top: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+/*this rule also targets the active class but i removed it bcos of conflicting use of it 26-5-2023*/
+.active, .collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+
+} 
+
+footer{
+  margin-top: 180px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+     a.navbar-brand{
+     margin-left: 170px;
+     margin-top: 200px;
+    }
+
+    .header h1{
+      width:60vh;
+      margin-left: -70px;
+    }
+
+    .header p{
+      width:50vh;
+      color: blue;
+      margin-left: -70px;
+   }
+
+   .collapsible {
+    margin-left: 150px;
+    width:60vh;
+   }
+  }
+
+  @media only screen and (max-width:767px){
+
+    a.navbar-brand{
+     margin-left: 130px;
+     margin-top: 200px;
+    }
+
+    .header h1{
+      width:60vh;
+      margin-left: -70px;
+    }
+
+    .header p{
+      width:50vh;
+      color: blue;
+      margin-left: -70px;
+   }
+
+   .collapsible {
+    margin-left: 150px;
+    width:60vh;
+   }
+    
+  }
+
+  /*= End-of-Responsiveness =*/

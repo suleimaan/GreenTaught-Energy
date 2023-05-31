@@ -94,48 +94,49 @@ footer{
 
 
 @media screen and (min-width: 768px) and (max-width: 991px){
-     a.navbar-brand{
-     margin-left: 170px;
+      a.navbar-brand{
+     margin-left: 100px;
      margin-top: 200px;
     }
 
     .header h1{
       width:60vh;
-      margin-left: -70px;
+      margin-left: -100px;
     }
 
     .header p{
       width:50vh;
       color: blue;
-      margin-left: -70px;
+      margin-left: -100px;
    }
 
    .collapsible {
-    margin-left: 150px;
+    margin-left: 120px;
     width:60vh;
    }
+    
   }
 
   @media only screen and (max-width:767px){
 
     a.navbar-brand{
-     margin-left: 130px;
+     margin-left: 100px;
      margin-top: 200px;
     }
 
     .header h1{
       width:60vh;
-      margin-left: -70px;
+      margin-left: -100px;
     }
 
     .header p{
       width:50vh;
       color: blue;
-      margin-left: -70px;
+      margin-left: -100px;
    }
 
    .collapsible {
-    margin-left: 150px;
+    margin-left: 120px;
     width:60vh;
    }
     

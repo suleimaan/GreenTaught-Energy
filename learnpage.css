@@ -122,22 +122,26 @@ footer{
     a.navbar-brand{
      margin-left: 100px;
      margin-top: 200px;
+     margin-right: 100px
     }
 
     .header h1{
       width:60vh;
       margin-left: -100px;
+      margin-right: 100px;
     }
 
     .header p{
       width:50vh;
       color: blue;
       margin-left: -100px;
+      margin-right: 100px
    }
 
    .collapsible {
     margin-left: 120px;
     width:60vh;
+     margin-right: 100px
    }
     
   }

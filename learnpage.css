@@ -127,19 +127,19 @@ footer{
 
     .header h1{
       width:60vh;
-      margin-left: -100px;
-      margin-right: 100px;
+      margin-left: -200px;
+     
     }
 
     .header p{
       width:50vh;
       color: blue;
-      margin-left: -100px;
-      margin-right: 100px
+      margin-left: -200px;
+      
    }
 
    .collapsible {
-    margin-left: 120px;
+    margin-left: 80px;
     width:60vh;
      margin-right: 100px
    }

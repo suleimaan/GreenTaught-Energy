@@ -80,11 +80,7 @@ letter-spacing:2px;
 	/*==responsive css ==*/
 
 	@media screen and (min-width: 768px) and (max-width: 991px){
-		body{
-			margin: 0 auto;
-			overflow: hidden;
-		}
-		.carousel-caption{
+	      .carousel-caption{
 			bottom:170px;
 		}
 		.carousel-caption p{
@@ -113,10 +109,7 @@ letter-spacing:2px;
 	}
 
 	@media only screen and (max-width:767px){
-		body{
-			margin: 0 auto;
-			overflow: hidden;
-		}
+		
 		.navbar-nav{
 			text-align: center;
 		}
